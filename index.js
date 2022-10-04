@@ -19,11 +19,13 @@ button.addEventListener('click', (e) => {
             const statsTextT = `<tr><td>stat</td><td>value</td></tr>`;
             let statsText = '';
             let nextS = '';
+            document.querySelector('.stats tbody').innerHTML = '';
             for (const stat of pokemon.stats) {
                 console.log(stat.stat.name, stat.base_stat);
                 nextS = statsTextT.replace('stat', stat.stat.name).replace('value', stat.base_stat)
                 document.querySelector('.stats tbody').innerHTML += nextS;
             }
+            document.querySelector('.abilities').innerHTML = '';
             for (const ability of pokemon.abilities) {
 
                 document.querySelector('.abilities').innerHTML += '<li>' + ability.ability.name + '</li>';
