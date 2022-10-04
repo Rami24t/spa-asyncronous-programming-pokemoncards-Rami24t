@@ -31,7 +31,7 @@ button.addEventListener('click', (e) => {
                 document.querySelector('.abilities').innerHTML += '<li>' + ability.ability.name + '</li>';
             }
             document.querySelector('.name').innerHTML = pokemon.name.toUpperCase();
-
+            document.querySelector('img').src = pImgSrc
         });
     document.querySelector('.stats').innerHTML = statsText
 
