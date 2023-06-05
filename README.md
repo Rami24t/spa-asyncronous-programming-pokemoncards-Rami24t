@@ -1,3 +1,10 @@
+## Live Demo Link to my solution
+ https://rami24t.github.io/spa-asyncronous-programming-pokemoncards-Rami24t/
+ 
+## How to use
+ Paste any pokemon's name and then submit to see their image and info.
+ Examples: Pikachu, Squirtle, Jigglypuff, Charizard, Gyarados, Eevee, Bulbasaur, Snorlax, Dragonite etc...
+
 # Pokemon Cards
 
 **This :cartwheeling: Exercise :weight_lifting: is to display a pokemon card with data retrieved via the Pokemon Api.**
